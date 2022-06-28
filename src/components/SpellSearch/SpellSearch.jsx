@@ -1,6 +1,11 @@
+import SearchForm from "../SearchForm/SearchForm";
+
 const SpellSearch = () => {
-  return ( 
-    <h3>Search for Spells</h3>
+  return (
+    <>
+      <h3>Search for Spells</h3>
+      <SearchForm />
+    </>
   );
 }
 
