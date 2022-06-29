@@ -17,6 +17,18 @@ const SpellSearch = () => {
     <>
       <h3>Search for Spells</h3>
       <SearchForm handleSpellSearch={handleSpellSearch} />
+      {spells.length ?
+      <>
+        {spells.map(spell =>
+          <div key={spell.index}>
+            {spell.name}
+          </div>
+          )}
+      </>
+      :
+      <h4>Search for a spell!</h4>
+      }
+
     </>
   );
 }
