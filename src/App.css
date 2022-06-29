@@ -40,3 +40,15 @@
 body {
   margin: 3rem;
 }
+
+h1, h2, h3 {
+  font-family: 'MedievalSharp', cursive;
+}
+
+h4, h5, h6, p {
+  font-family: 'Inter', sans-serif;
+}
+
+.link-style {
+  font-family: 'Inter', sans-serif;
+}

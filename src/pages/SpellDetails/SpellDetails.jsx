@@ -37,7 +37,7 @@ const SpellDetails = (props) => {
           <p>Loading spell details...</p>
         </>
       }
-      <Link to="/">Return to Search</Link>
+      <Link className='link-style' to="/">Return to Search</Link>
     </>
   );
 }
