@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Routes, Route } from 'react-router-dom';
 import SpellSearch from './components/SpellSearch/SpellSearch';
+import SpellDetails from './pages/SpellDetails/SpellDetails';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>React Dungeons and Dragons Practice</h1>
       <Routes>
         <Route path="/" element={<SpellSearch />}/>
+        <Route path="/spell/:spellName" element={<SpellDetails />} />
       </Routes>
     </>
   );
