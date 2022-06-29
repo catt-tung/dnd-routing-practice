@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { getSpellDetails } from '../../services/api-calls';
+import { Link } from 'react-router-dom'
 
 
 const SpellDetails = (props) => {
@@ -36,6 +37,7 @@ const SpellDetails = (props) => {
           <p>Loading spell details...</p>
         </>
       }
+      <Link to="/">Return to Search</Link>
     </>
   );
 }
